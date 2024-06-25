@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #8cc1df;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+label {
+    font-family: "Geneva";
+    text-decoration: none;
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.card {
+    background-color: #fff;
+    max-width: 900px;
+    margin: 10px auto;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.row {
+    margin-top: 15px;
+}
+
+.row div {
+    padding: 10px;
+}
+
+.row input {
+    width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #3e757d;
+    outline: none;
+    font-size: 16px;
+}
+
+.row button {
+    background-color: #04756a;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 10px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+}
+
+.row p {
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: justify;
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: #007bff;
+}

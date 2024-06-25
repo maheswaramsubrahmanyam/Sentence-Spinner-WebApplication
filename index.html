@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Paragraph Generator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+
+<body>
+    <div class="container d-flex flex-column min-vh-100">
+        <div class="card flex-grow-1">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <label for="items">Generate Random Paragraph</label>
+                </div>
+
+                <div class="col-12 col-sm-6 col-md-4 mb-3">
+                    <input type="number" value="5" id="items" class="form-control">
+                </div>
+
+                <div class="col-12">
+                    <button onclick="generate()" class="btn btn-primary">Generate</button>
+                </div>
+            </div>
+
+            <div class="row" id="data"></div>
+        </div>
+
+        <footer class="mt-auto  py-3">
+            <div class="text-center">
+                <p class="paragraph">Developed by <a href="https://www.linkedin.com/in/maheswaram-subrahmanyam-361238275/">Maheswaram Subrahmanyam</a></p>
+            </div>
+        </footer>
+    </div>
+
+    <script src="function.js"></script>
+</body>
+
+</html>
